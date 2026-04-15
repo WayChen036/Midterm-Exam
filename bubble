@@ -5,7 +5,5 @@ def bubble_sort(arr):
             if arr[j] > arr[j+1]:
                 arr[j], arr[j+1] = arr[j+1], arr[j]
     return arr
-
-# 範例使用
 arr = [5, 1, 4, 2, 8]
 print(bubble_sort(arr))
