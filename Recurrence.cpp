@@ -1,9 +1,11 @@
 #include<iostream>
 using namespace std;
-int n = 1;
+int n;
+int s = 1;
 int main() {
-    for(int i = 1; i <= 5; i++) {
-        n = n * i;
+    cin >> n;
+    for(int i = 1; i <= n; i++) {
+        s = s * i;
     }
-    cout << n << endl;
+    cout << s << endl;
 }
